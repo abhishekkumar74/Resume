@@ -696,13 +696,13 @@ span {
     width: 100%;
     padding: 1rem 3%;
     background: var(--bg-color);
-    border-top: .1rem solid rgba(0, 0, 0, 2);
-    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 1);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
     display: none;
 
     }
 
-    .navbar .active{
+    .navbar.active{
         display: block;
     }
 
@@ -712,13 +712,16 @@ span {
     margin: 3rem 0;
     color: var(--text-color);
     }
+
     .navbar a:nth-child(1),
     .navbar a:nth-child(2) {
-    color: var(--text-color);
+     color: var(--text-color);
     }
+    
     .navbar a.active {
     color: var(--main-color);
     }
+
     .navbar a::before{
         color: none;
     }
@@ -740,14 +743,6 @@ span {
         margin: 2.5rem .75rem 3rem;
     }
 
-    .home .profession-container .overlay{
-        position: fixed;
-        top: 70rem;
-        left: 50%;
-        right: 0;
-        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 23.9rem;
-    }
 
     .home .profession-container{
         left: 0;
@@ -768,12 +763,13 @@ span {
         left: auto;
         transform-origin: 0;
     }
+    
 
     .home .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-120px,-210px);
     }
 
-    .home .profession-box .profession:nth-child(1) i{
+    .home .profession-box .profession:nth-child(1) i {
         margin-right: 0;
     }
 
@@ -789,21 +785,24 @@ span {
         transform: rotate(180deg) translate(-220px,335px);
     }
 
-    .home .profession-box.circle{
+    .home .profession-box .circle{
         position: fixed;
         width: 670px;
         height: 670px;
         z-index: -1;
     }
 
+
     .home .profession-container .overlay{
         position: fixed;
-        top: 70rem;
+        top: 90rem;
         left: 50%;
         right: 0;
-        transform: rotate(90deg) translate(-50% 50%) scaleY(3);
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
     }
+
+    
 
     .about{
         flex-direction: column-reverse;
@@ -819,13 +818,13 @@ span {
         margin-top: -2rem;
     }
 
-    .services h2
+    .services h2,
     .portfolio h2 {
         margin-bottom: 3rem;
     }
 
     .portfolio .portfolio-container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .testimonial-container .testimonial-wrapper {
