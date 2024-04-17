@@ -16,4 +16,5 @@ Technologies Used
 HTML: Used to structure the content and layout of the landing page.
 
 CSS: Utilized for styling and creating visually appealing designs.
+
 JavaScript: Implemented interactive features and functionality to enhance user experience.
