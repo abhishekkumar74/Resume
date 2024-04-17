@@ -18,3 +18,5 @@ HTML: Used to structure the content and layout of the landing page.
 CSS: Utilized for styling and creating visually appealing designs.
 
 JavaScript: Implemented interactive features and functionality to enhance user experience.
+
+Thank you for checking out my Portfolio Landing Page project! I hope you enjoy exploring it as much as I enjoyed building it. If you have any questions or feedback, please don't hesitate to reach out.
